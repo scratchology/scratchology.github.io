@@ -1,2 +1,2 @@
 # scratchology.github.io
-Hello World
+This is the official Scratchology website.
