@@ -1,67 +1,86 @@
 ﻿body,
 html {
-	margin: 45px;
-	padding: 0;
-	font-family: arial;
-	text-align: center;
-	background-attachment: fixed;
-	background-color: #C6E2EE;
-	background-repeat: no-repeat;
+    margin: 0;
+    margin-top: 45px;
+    margin-bottom: 0;
+    padding: 0;
+    font-family: arial;
+    text-align: center;
+    background-attachment: fixed;
+    background-color: #C6E2EE;
+    background-repeat: no-repeat;
 }
 
 .active {
-	background-color: #0495C4;
-	color: white;
+    background-color: #0495C4;
+    color: white;
 }
 
 ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #58B3F0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #58B3F0;
 }
 
 li {
-	float: left;
+    float: left;
 }
 
 li a {
-	display: block;
-	color: white;
-	text-align: center;
-	margin: 0;
-	padding: 15px 25px;
-	text-decoration: none;
-	transition: 0.5s;
+    display: block;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 15px 25px;
+    text-decoration: none;
+    transition: 0.5s;
 }
 
+
+/* Change the link color to #111 (black) on hover */
+
 li a:hover {
-	background-color: #0495C4;
+    background-color: #0495C4;
 }
 
 .container {
-	width: 950px;
-	height: 1000px;
-	margin: auto;
-	margin-top: 0px;
-	padding: 0;
-	background-color: white;
+    width: 950px;
+    height: 900px;
+    margin: auto;
+    margin-top: 0px;
+    padding: 0;
+    background-color: white;
 }
 
 .header {
-	background-color: rgba(88, 170, 240, 0.51);
-	margin: 0;
-	padding: 0;
+    background-color: rgba(88, 170, 240, 0.51);
+    margin: 0;
+    padding: 0;
 }
 
 .header h1 {
-	font-size: 85px;
-	margin: 0;
-	padding: 15px 0 0 0;
+    font-size: 85px;
+    margin: 0;
+    padding: 15px 0 0 0;
 }
 
 .header h3 {
-	margin: 0;
-	padding: 0 0 25px 0;
+    margin: 0;
+    padding: 0 0 25px 0;
+}
+
+.footer {
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 12.5px;
+    /*padding-top: 15px;*/
+    height: 25px;
+    background-color: black;
+    color: white;
+}
+
+.footer a {
+    color: lightblue;
 }
